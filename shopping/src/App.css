@@ -1,0 +1,154 @@
+/* General Page Layout */
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center Card */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Card */
+.cart-card {
+  background: #1e293b;
+  border-radius: 20px;
+  padding: 50px;
+  width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  flex: auto;
+  align-items: center;
+  align-self: center;
+}
+
+/* Header */
+.cart-card h1 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #93c5fd;
+}
+
+/* Product Grid */
+.products-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+/* Product Card */
+.product-card {
+  background: #334155;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 130px;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  background: #475569;
+  transform: translateY(-2px);
+}
+
+.product-card h3 {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.product-card p {
+  margin: 0;
+  color: #a5b4fc;
+}
+
+.product-card button {
+  margin-top: 8px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+}
+
+
+.product-card button:hover {
+  background: #2563eb;
+}
+
+/* Cart List */
+.cart-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.cart-list li {
+  background: #334155;
+  margin: 6px 0;
+  padding: 8px 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-list li button {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cart-list li button:hover {
+  background: #dc2626;
+}
+
+/* Totals */
+.totals {
+  margin-top: 15px;
+  background: #334155;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.totals p,
+.totals h3 {
+  margin: 5px 0;
+}
+
+/* Checkout Button */
+.checkout-btn {
+  margin-top: 15px;
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.checkout-btn:hover {
+  background: #059669;
+}
+
+/* Empty Cart Text */
+.empty {
+  color: #94a3b8;
+  font-style: italic;
+}
