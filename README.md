@@ -38,7 +38,8 @@ It allows users to add or remove products, calculate totals and discounts, and s
 
 ## 📸 Preview
 
-![Shopping Cart Preview](./38105101-0792-4ee1-b1ec-5e00916fb80c.png)
+<img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/cb2cab14-e7b1-471b-a886-c21ad858c905" />
+
 
 ---
 
